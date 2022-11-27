@@ -1,3 +1,19 @@
+# Requirements
+**We kindly ask that you spend no more than 6-8 hours on this challenge.**
+
+At a minimum, there are three things we would like to see:
+* Users should be able to register	d	(2022-11-26 23:22:08)
+* Admin page should list all users	d	(2022-11-26 22:56:21)
+* Design/layout of content			meh	(2022-11-26 ); important final project.
+
+notes:
+- no database, use `init_data.json` to mock a database operation
+- user routes are provided...?
+- The codebase uses lodash, `_` as its alias.
+- `logger` is a lot like `morgan`
+- ok, i get it, i just need to `axios` this.
+
+
 Yodlr Front End Engineer Code/Design Challenge
 =======================
 

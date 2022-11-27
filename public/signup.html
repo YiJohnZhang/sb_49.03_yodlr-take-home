@@ -7,11 +7,24 @@
 <body>
   <h1>Yodlr Registration Portal</h1>
   <form>
-    Email: <input type="email" name="email"></br>
-    <button type="submit">Submit</button>
+    <label for="email"><strong>Email</strong>: </label>
+	<input type="email" name="email"></br>
+
+    <label for="firstName"><strong>First Name</strong>: </label>
+	<input name="firstName" type="text"></br>
+	
+    <label for="lastName"><strong>Last Name</strong>: </label>
+	<input name="lastName" type="text"></br>
+
+	<input name="status" type="hidden" status="pending"><br>
+	<!-- No DBMS to force it to pending -->
+
+    <button id="submitForm" type="button">Submit</button>
   </form>
   <p>
     <a href="/admin.html">Admin Page</a>
   </p>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./js/signup.js"></script>
 </body>
 </html>
